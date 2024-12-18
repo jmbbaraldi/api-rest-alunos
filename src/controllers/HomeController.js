@@ -1,9 +1,5 @@
-import Aluno from '../models/Aluno';
-
 const index = (req, res) => {
-  res.json({
-    tudoCerto: true,
-  });
+  res.json('Index');
 };
 
 export default {

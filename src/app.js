@@ -1,7 +1,7 @@
 import express from 'express';
 import { resolve } from 'path';
-import Routes from './src/routes/index';
-import './src/database';
+import Routes from './routes/index';
+import './database';
 
 const app = express();
 
